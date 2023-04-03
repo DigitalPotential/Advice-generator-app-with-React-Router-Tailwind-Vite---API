@@ -19,8 +19,8 @@ const Card = () => {
   }, []);
 
   return (
-    <div className="card-wrapper bg-dark-grayish-blue w-[360px] lg:w-auto max-w-[350px] lg:max-w-lg height: 100%; p-7 mx-8 relative flex flex-col items-center rounded-xl">
-      <p className="advice-title text-[13px] text-neon-green mt-4 tracking-[4px] ">
+    <div className="card-wrapper bg-Purple w-[360px] lg:w-auto max-w-[350px] lg:max-w-lg height: 100%; p-7 mx-8 relative flex flex-col items-center rounded-[3.5rem]">
+      <p className="advice-title text-[13px] text-bright-purple mt-4 tracking-[4px] ">
         ADVICE # {text.id}
       </p>
       <p className="advice-text text-[#d5dadc] text-center text-[24px] lg:text-[28px] mt-6 ">
@@ -37,7 +37,7 @@ const Card = () => {
         className="quote-divider-desktop py-7 hidden lg:block "
       />
       <button
-        className="dice w-12 h-12 bg-neon-green lg:hover:animate-spin hover:transition hover:ease-in-out hover:delay-150 hover:duration-700  hover:shadow-3xl flex flex-col justify-center items-center absolute -bottom-6 rounded-3xl"
+        className="dice w-12 h-12 bg-bright-purple lg:hover:animate-spin hover:transition hover:ease-in-out hover:delay-150 hover:duration-700  hover:shadow-3xl flex flex-col justify-center items-center absolute -bottom-6 rounded-3xl"
         onClick={fetchAdvice}
         type="button"
       >

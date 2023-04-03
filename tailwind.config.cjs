@@ -7,17 +7,17 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        '3xl': '0 0 30px 0.8rem hsl(150, 100%, 66%)',
+        '3xl': '0 0 30px 0.8rem #2D2039',
       },
       fontFamily: {
         'Manrope': ['Manrope', 'sans-serif']
       },
       colors: {
         //Primary
-        'light-cyan': 'hsl(193, 38%, 86%)',
-        'neon-green': 'hsl(150, 100%, 66%)',
+        'bright-purple': '#A638F6',
+        'Purple': '#2D2039',
         //Neutral
-        'grayish-blue': 'hsl(217, 19%, 38%)',
+        'dark-purple': '#16111A',
         'dark-grayish-blue': 'hsl(217, 19%, 24%)',
         'dark-blue': 'hsl(218, 23%, 16%)'
       },
